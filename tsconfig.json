@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2016",
+        "jsx": "preserve",
+        "lib": ["ES2018", "ES2019.Object"],
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
